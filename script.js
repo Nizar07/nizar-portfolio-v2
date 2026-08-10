@@ -29,9 +29,10 @@ const navToggle = document.getElementById('navToggle');
     "escape-from-school": {
       title: "Escape from School",
       items: [
-        { type: "image", src: "media/escape-from-school/1.svg" },
-        { type: "image", src: "media/escape-from-school/2.svg" },
-        { type: "image", src: "media/escape-from-school/3.svg" }
+        { type: "video", src: "media/escape-from-school/TrailerEscapeFromSchool.mp4" },
+        { type: "image", src: "media/escape-from-school/escape1.png" },
+        { type: "image", src: "media/escape-from-school/escape2.png" },
+        { type: "image", src: "media/escape-from-school/escape3.png" }
       ]
     },
     "door-of-truth": {
@@ -44,9 +45,9 @@ const navToggle = document.getElementById('navToggle');
     "pulau-sunyi": {
       title: "Pulau Sunyi: Misteri Mayat di Dermaga",
       items: [
-        { type: "image", src: "media/pulau-sunyi/1.svg" },
-        { type: "image", src: "media/pulau-sunyi/2.svg" },
-        { type: "image", src: "media/pulau-sunyi/3.svg" }
+        { type: "video", src: "KontenVN.mp4" },
+        { type: "image", src: "media/pulau-sunyi/pulau1.png" },
+        { type: "image", src: "media/pulau-sunyi/pulau2.png" }
       ]
     },
     "witch-vs-parasite": {
@@ -57,48 +58,43 @@ const navToggle = document.getElementById('navToggle');
       ]
     },
     "interactive-learning": {
-      title: "Interactive Learning Mini-Games",
+      title: "Interactive Learning Mini-Games: BabyBus",
       items: [
-        { type: "image", src: "media/interactive-learning/1.svg" },
-        { type: "image", src: "media/interactive-learning/2.svg" },
-        { type: "image", src: "media/interactive-learning/3.svg" }
+        { type: "video", src: "media/interactive-learning/babybus.mp4" }
       ]
     },
     "visual-novel-funtasya": {
       title: "Visual Novel Project : Funtasya",
       items: [
-        { type: "image", src: "media/visual-novel-funtasya/1.svg" },
-        { type: "image", src: "media/visual-novel-funtasya/2.svg" },
-        { type: "image", src: "media/visual-novel-funtasya/3.svg" }
+        { type: "video", src: "media/visual-novel-funtasya/vnFuntasya1.mp4" },
+        { type: "video", src: "media/visual-novel-funtasya/vnFuntasya2.mp4" },
+        { type: "video", src: "media/visual-novel-funtasya/vnFuntasya3.mp4" }
       ]
     },
     "mora": {
       title: "Mora — Mood Relaxing Anxiety",
       items: [
-        { type: "image", src: "media/mora/1.svg" },
-        { type: "image", src: "media/mora/2.svg" },
-        { type: "image", src: "media/mora/3.svg" }
+        { type: "image", src: "media/mora/mora.png" }
       ]
     },
     "taud-saqu": {
       title: "TAUD Saqu Ashabul Qur'an",
       items: [
-        { type: "image", src: "media/taud-saqu/1.svg" },
-        { type: "image", src: "media/taud-saqu/2.svg" }
+        { type: "image", src: "media/taud-saqu/taud.png" }
       ]
     },
     "studysync": {
       title: "StudySync",
       items: [
-        { type: "image", src: "media/studysync/1.svg" },
-        { type: "image", src: "media/studysync/2.svg" }
+        { type: "image", src: "media/studysync/study1.png" },
+        { type: "image", src: "media/studysync/study2.png" }
       ]
     },
     "finance-ai": {
       title: "Finance AI",
       items: [
-        { type: "image", src: "media/finance-ai/1.svg" },
-        { type: "image", src: "media/finance-ai/2.svg" }
+        { type: "image", src: "media/finance-ai/finance1.png" },
+        { type: "image", src: "media/finance-ai/finance2.png" }
       ]
     }
   };
