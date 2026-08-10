@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nizar Zeth Basalamah — Game Programmer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="crt-overlay"></div>
+
+<header class="hud">
+  <div class="hud-inner">
+    <div class="hud-logo">NB_<span class="blink">▌</span></div>
+    <button class="hud-toggle" id="navToggle" aria-label="Toggle menu">MENU</button>
+    <nav class="hud-links" id="navLinks">
+      <a href="#about">ABOUT</a>
+      <a href="#experience">EXP</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-tag">// GAME DEVELOPER PORTFOLIO — SURABAYA, INDONESIA</div>
+    <h1>NIZAR ZETH<br>BASALAMAH</h1>
+    <div class="hero-role">Game Programmer · Android Developer · Full-Stack Builder</div>
+    <p class="hero-sub">I build interactive worlds and the systems behind them — from Godot &amp; Unity gameplay to Kotlin apps and full-stack web tools. Currently shipping gameplay systems at Funtasya World.</p>
+    <a href="#about" class="press-start">PRESS START ▸</a>
+    <div class="hero-stats">
+      <div class="hero-stat"><b>9+</b>PROJECTS SHIPPED</div>
+      <div class="hero-stat"><b>3.72</b>GPA / 4.00</div>
+      <div class="hero-stat"><b>4</b>GAME JAMS</div>
+      <div class="hero-stat"><b>2026</b>INFORMATICS GRAD</div>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <section id="about">
+    <div class="eyebrow">ABOUT ME</div>
+    <div class="about-grid">
+      <div class="avatar">🎮</div>
+      <div class="about-text">
+        <p>I'm a Game Programmer and Android Developer who enjoys building interactive experiences from the ground up — gameplay systems, AI, puzzle mechanics, and the mobile apps that support them. I specialize in <b>Kotlin, Firebase, Unity, Godot, and C#</b>, with hands-on experience across game jams, personal projects, and internships.</p>
+        <p>I like learning new tools, solving hard problems, and working closely with designers and artists to turn ideas into things people can actually play.</p>
+        <div class="fact-grid">
+          <div class="fact"><span>EDUCATION</span><b>S1 Informatika — Univ. Muhammadiyah Surabaya</b></div>
+          <div class="fact"><span>TIMELINE</span><b>Aug 2022 – Feb 2026</b></div>
+          <div class="fact"><span>GPA</span><b>3.72 / 4.00</b></div>
+          <div class="fact"><span>LANGUAGES</span><b>Indonesian (Native), English (B1+)</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="eyebrow">SAVE LOG — WORK EXPERIENCE</div>
+    <h2>Where I've Worked</h2>
+    <div class="save-log">
+      <div class="save-point">
+        <div class="date">JAN 2026 — JUL 2026</div>
+        <h3>Game Programmer Intern</h3>
+        <div class="org">Funtasya World · Remote</div>
+        <p>Developing gameplay systems and interactive mechanics in Unity and C#, working closely with designers and artists to implement features and integrate assets. Continuously leveling up through a structured internal learning program covering Unity, C#, and game design fundamentals.</p>
+      </div>
+      <div class="save-point">
+        <div class="date">SEP 2024 — JAN 2025</div>
+        <h3>Android Developer Intern</h3>
+        <div class="org">TAUD Saqu Ashabul Qur'an · Hybrid</div>
+        <p>Built and maintained an Android school management app in Kotlin and Firebase — digital report cards, online payments, and student permission/violation tracking — then published it to the Google Play Store.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="eyebrow">LEVEL SELECT — PROJECT PORTFOLIO</div>
+    <h2>Projects</h2>
+    <div class="filter-row" id="filterRow">
+      <button class="filter-btn active" data-filter="all">ALL</button>
+      <button class="filter-btn" data-filter="game">GAMES</button>
+      <button class="filter-btn" data-filter="app">APPS &amp; WEB</button>
+    </div>
+    <div class="level-grid" id="levelGrid">
+
+      <article class="level-card" data-cat="game">
+        <div class="level-num">LEVEL 01</div>
+        <h3>Escape from School</h3>
+        <div class="level-genre">2D Side Scroller · Puzzle · Horror</div>
+        <p>A horror puzzle game built solo-team during GamdoJam 2023, a one-week game jam. Handled enemy AI, stealth mechanics, and environmental puzzles.</p>
+        <div class="level-role">Role: Game Programmer, Game Designer</div>
+        <div class="chip-row"><span class="chip">Godot</span><span class="chip">GameJam 2023</span></div>
+      </article>
+
+      <article class="level-card" data-cat="game">
+        <div class="level-num">LEVEL 02</div>
+        <h3>Find the Door of Truth</h3>
+        <div class="level-genre">Puzzle Adventure</div>
+        <p>A puzzle-adventure game built solo in three days for BGDJam 2022 — full ownership from concept to final implementation.</p>
+        <div class="level-role">Role: Solo Developer</div>
+        <div class="chip-row"><span class="chip">Godot</span><span class="chip">BGDJam 2022</span></div>
+      </article>
+
+      <article class="level-card" data-cat="game">
+        <div class="level-num">LEVEL 03</div>
+        <h3>Pulau Sunyi: Misteri Mayat di Dermaga</h3>
+        <div class="level-genre">Visual Novel · Point &amp; Click · Mystery</div>
+        <p>A psychological mystery visual novel for GameTech GameJam 2025, with branching dialogue, multiple endings, and point-and-click investigation.</p>
+        <div class="level-role">Role: Game Programmer, Game Designer, Story Writer</div>
+        <div class="chip-row"><span class="chip">Godot</span><span class="chip">GameTech Jam 2025</span></div>
+      </article>
+
+      <article class="level-card" data-cat="game">
+        <div class="level-num">LEVEL 04</div>
+        <h3>Witch vs Parasite</h3>
+        <div class="level-genre">Action</div>
+        <p>A personal action game project focused on combat mechanics, enemy AI, and core gameplay feel.</p>
+        <div class="level-role">Role: Personal Project</div>
+        <div class="chip-row"><span class="chip">2025</span></div>
+      </article>
+
+      <article class="level-card" data-cat="game">
+        <div class="level-num">LEVEL 05</div>
+        <h3>Interactive Learning Mini-Games</h3>
+        <div class="level-genre">Educational · Self-Care Mini-Games</div>
+        <p>Five self-care mini-games built during the Funtasya internship — coloring interaction, drawing mechanics, level progression, and progress tracking.</p>
+        <div class="level-role">Role: Unity Game Programmer</div>
+        <div class="chip-row"><span class="chip">Unity</span><span class="chip">C#</span><span class="chip">Git</span></div>
+      </article>
+
+      <article class="level-card" data-cat="app">
+        <div class="level-num">LEVEL 06</div>
+        <h3>Mora — Mood Relaxing Anxiety</h3>
+        <div class="level-genre">Mental Health · Android App</div>
+        <p>A fullstack Android wellness app with PHQ-9 assessment, mood tracking, gamified daily check-ins, achievements, and a progress dashboard synced to Firebase.</p>
+        <div class="level-role">Role: Fullstack Android Developer</div>
+        <div class="chip-row"><span class="chip">Kotlin</span><span class="chip">Firebase</span><span class="chip">Android Studio</span></div>
+      </article>
+
+      <article class="level-card" data-cat="app">
+        <div class="level-num">LEVEL 07</div>
+        <h3>TAUD Saqu Ashabul Qur'an</h3>
+        <div class="level-genre">School Management · Android App</div>
+        <p>Published school-management app with student management, digital report cards, online payments, permission requests, and violation tracking.</p>
+        <div class="level-role">Role: Android Developer</div>
+        <div class="chip-row"><span class="chip">Kotlin</span><span class="chip">Firebase</span><span class="chip">Play Store</span></div>
+      </article>
+
+      <article class="level-card" data-cat="app">
+        <div class="level-num">LEVEL 08</div>
+        <h3>StudySync</h3>
+        <div class="level-genre">Study Platform · Full-Stack Web</div>
+        <p>A collaborative study-room platform with real-time chat, Pomodoro timer, room management, and session tracking.</p>
+        <div class="level-role">Role: Full Stack Developer</div>
+        <div class="chip-row"><span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Socket.IO</span><span class="chip">MySQL</span></div>
+      </article>
+
+      <article class="level-card" data-cat="app">
+        <div class="level-num">LEVEL 09</div>
+        <h3>Finance AI</h3>
+        <div class="level-genre">Personal Finance · Full-Stack Web</div>
+        <p>An income/expense tracker with budget management, financial dashboard, and AI-generated spending insights via the OpenAI API.</p>
+        <div class="level-role">Role: Full Stack Developer</div>
+        <div class="chip-row"><span class="chip">Laravel</span><span class="chip">PHP</span><span class="chip">MySQL</span><span class="chip">OpenAI API</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="eyebrow">SKILL TREE</div>
+    <h2>Tools &amp; Abilities</h2>
+    <div class="skills-grid">
+      <div>
+        <div class="skill-row">
+          <div class="top"><span>Godot Engine</span><span>Proficient</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:88%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="top"><span>Unity / C#</span><span>Working knowledge</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:60%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="top"><span>Kotlin / Firebase</span><span>Intermediate</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:65%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="top"><span>HTML / CSS / JavaScript</span><span>Intermediate</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:65%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="top"><span>Git / GitHub</span><span>Intermediate</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:65%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="top"><span>PHP / Laravel</span><span>Beginner</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:35%"></div></div>
+        </div>
+      </div>
+      <div>
+        <div class="perk-title">PERKS — WORKING STYLE</div>
+        <div class="perk-list">
+          <span class="perk">🧩 Problem Solving</span>
+          <span class="perk">🤝 Team Collaboration</span>
+          <span class="perk">💬 Communication</span>
+          <span class="perk">🎯 Attention to Detail</span>
+          <span class="perk">⏱ Time Management</span>
+          <span class="perk">📚 Continuous Learning</span>
+          <span class="perk">🧠 Critical Thinking</span>
+          <span class="perk">🚀 Adaptability</span>
+        </div>
+        <div class="lang-list">
+          <div><b>INDONESIAN</b>Native</div>
+          <div><b>ENGLISH</b>B1+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-panel">
+      <div class="eyebrow" style="justify-content:center;">CONTINUE?</div>
+      <h2>Let's Build Something</h2>
+      <p>Open to game programming, Android, and full-stack opportunities. Insert coin — or just send an email.</p>
+      <div class="contact-links">
+        <a href="mailto:nizarbasalamah8@gmail.com">✉ nizarbasalamah8@gmail.com</a>
+        <a href="tel:+6285931160061">☎ +62 859-3116-0061</a>
+        <a href="https://instagram.com/nize_07" target="_blank" rel="noopener">📷 @nize_07</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>© 2026 NIZAR ZETH BASALAMAH — BUILT WITH GODOT, UNITY, AND TOO MUCH COFFEE</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
